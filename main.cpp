@@ -54,11 +54,12 @@ std::list<std::pair<std::string, std::string>> make2022List() {
 }
 
 int main() {
+	// Creating lists for each year
     auto list1970 = make1970List();
     auto list2019 = make2019List();
     auto list2022 = make2022List();
-
-    printList(list1970, "1970");
+	//printing the lists for each year
+    printList(list1970, "1970");      
     printList(list2019, "2019");
     printList(list2022, "2022");
 
